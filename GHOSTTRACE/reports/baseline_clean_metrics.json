@@ -1,0 +1,27 @@
+{
+  "dataset_records": 1439,
+  "train_records": 1007,
+  "validation_records": 216,
+  "test_records": 216,
+  "accuracy": 0.8379629629629629,
+  "macro_precision": 0.8604982152350573,
+  "macro_recall": 0.832633865140259,
+  "macro_f1": 0.8397649888204111,
+  "training_seconds": 4.259,
+  "random_state": 42,
+  "split_method": "Stratified random split; source groups unique",
+  "labels": [
+    "A01_broken_access_control",
+    "A02_cryptographic_failures",
+    "A03_injection",
+    "A04_insecure_design",
+    "A05_security_misconfiguration",
+    "A06_vulnerable_and_outdated_components",
+    "A07_identification_and_authentication_failures",
+    "A08_software_and_data_integrity_failures",
+    "A09_security_logging_and_monitoring_failures",
+    "A10_server_side_request_forgery"
+  ],
+  "synthetic_records_present": true,
+  "interpretation": "Experimental category classification on synthetic/unverified data; not validated real-world vulnerability detection."
+}

@@ -1,0 +1,22 @@
+{
+  "experiment": "Frozen DistilBERT embeddings + Logistic Regression",
+  "model_name": "distilbert/distilbert-base-uncased",
+  "training_method": "Frozen pretrained feature extractor; no fine-tuning",
+  "max_length": 64,
+  "batch_size": 8,
+  "selected_logistic_regression_C": 10.0,
+  "validation_macro_f1_at_selected_C": 0.7863526450094612,
+  "train_rows": 1007,
+  "validation_rows": 216,
+  "test_rows": 216,
+  "accuracy": 0.7638888888888888,
+  "macro_precision": 0.7539646391620076,
+  "macro_recall": 0.7822141030325174,
+  "macro_f1": 0.7650789440152707,
+  "embedding_dimensions": 768,
+  "classifier_fit_seconds": 10.78183650970459,
+  "test_prediction_seconds": 0.0007781982421875,
+  "total_seconds": 165.83975386619568,
+  "test_samples": 216,
+  "note": "Experimental classification of dataset labels, not proof that a real website is vulnerable. Dataset examples are not independently verified."
+}

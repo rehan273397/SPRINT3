@@ -1,0 +1,32 @@
+[
+  {
+    "model": "TF-IDF + Logistic Regression",
+    "accuracy": 0.8379629629629629,
+    "macro_precision": 0.8604982152350573,
+    "macro_recall": 0.832633865140259,
+    "macro_f1": 0.8397649888204111,
+    "test_samples": NaN,
+    "training_seconds": 4.259,
+    "total_seconds": NaN
+  },
+  {
+    "model": "Frozen DistilBERT + Logistic Regression",
+    "accuracy": 0.7638888888888888,
+    "macro_precision": 0.7539646391620076,
+    "macro_recall": 0.7822141030325174,
+    "macro_f1": 0.7650789440152707,
+    "test_samples": 216.0,
+    "training_seconds": 10.78183650970459,
+    "total_seconds": 165.83975386619568
+  },
+  {
+    "model": "Bidirectional LSTM",
+    "accuracy": NaN,
+    "macro_precision": 0.7536000210360825,
+    "macro_recall": 0.6903736857061665,
+    "macro_f1": 0.7117820307544124,
+    "test_samples": NaN,
+    "training_seconds": 106.98,
+    "total_seconds": NaN
+  }
+]

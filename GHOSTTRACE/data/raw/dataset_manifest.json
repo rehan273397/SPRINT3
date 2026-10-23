@@ -1,0 +1,21 @@
+{
+  "dataset_name": "SecureCode",
+  "dataset_config": "web",
+  "source": "https://huggingface.co/datasets/scthornton/securecode",
+  "source_split": "train",
+  "records_imported": 1439,
+  "task": "OWASP category classification from attack and impact descriptions",
+  "input_fields": [
+    "attack_vector",
+    "impact"
+  ],
+  "excluded_from_text": [
+    "OWASP category",
+    "OWASP subcategory",
+    "CWE",
+    "severity",
+    "conversation transcripts"
+  ],
+  "warning": "All rows are conservatively marked synthetic/unverified. These results do not establish real-world detection performance.",
+  "license_to_review": "CC BY-NC-SA 4.0"
+}

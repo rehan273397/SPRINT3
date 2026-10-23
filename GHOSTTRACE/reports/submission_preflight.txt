@@ -1,0 +1,32 @@
+GHOSTTRACE SUBMISSION PREFLIGHT
+========================================
+Generated: 2026-10-22T21:33:28+05:00
+Passed: 7
+Failed: 0
+
+[PASS] Application syntax
+    app.py compiles successfully
+
+[PASS] Trained baseline model loads and predicts
+    Prediction=A01_broken_access_control; confidence=0.1906628770724215
+
+[PASS] Model experiment reports
+    3 model comparison row(s) found
+
+[PASS] Processed dataset
+    1439 records; 10 labels
+
+[PASS] Dataset split report
+    Split counts: {'train': 1007, 'validation': 216, 'test': 216}
+
+[PASS] CSV round-trip
+    CSV export/import round-trip passed
+
+[PASS] Requirements file
+    Core application dependencies are listed
+
+INTERPRETATION
+This report checks project files, basic model inference, and CSV handling.
+It does not prove real-world vulnerability detection performance.
+Manually verify the Streamlit interface and generated downloads before submission.
+The current app classifies supplied evidence; it is not a live website scanner.

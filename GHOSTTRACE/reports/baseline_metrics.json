@@ -1,0 +1,25 @@
+{
+  "dataset_records": 1625,
+  "train_records": 1137,
+  "validation_records": 244,
+  "test_records": 244,
+  "accuracy": 0.8360655737704918,
+  "macro_precision": 0.8572701397976796,
+  "macro_recall": 0.821043823326432,
+  "macro_f1": 0.8368100669714629,
+  "training_seconds": 6.881,
+  "random_state": 42,
+  "labels": [
+    "A01_broken_access_control",
+    "A02_cryptographic_failures",
+    "A03_injection",
+    "A04_insecure_design",
+    "A05_security_misconfiguration",
+    "A06_vulnerable_and_outdated_components",
+    "A07_identification_and_authentication_failures",
+    "A08_software_and_data_integrity_failures",
+    "A09_security_logging_and_monitoring_failures",
+    "A10_server_side_request_forgery"
+  ],
+  "synthetic_records_present": true
+}

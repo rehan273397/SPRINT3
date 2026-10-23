@@ -1,0 +1,75 @@
+{
+  "A01_broken_access_control": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578947,
+    "support": 36.0
+  },
+  "A02_cryptographic_failures": {
+    "precision": 0.8947368421052632,
+    "recall": 0.85,
+    "f1-score": 0.8717948717948718,
+    "support": 20.0
+  },
+  "A03_injection": {
+    "precision": 0.8857142857142857,
+    "recall": 0.9117647058823529,
+    "f1-score": 0.8985507246376812,
+    "support": 34.0
+  },
+  "A04_insecure_design": {
+    "precision": 0.8181818181818182,
+    "recall": 0.5294117647058824,
+    "f1-score": 0.6428571428571429,
+    "support": 17.0
+  },
+  "A05_security_misconfiguration": {
+    "precision": 0.9444444444444444,
+    "recall": 0.7391304347826086,
+    "f1-score": 0.8292682926829268,
+    "support": 23.0
+  },
+  "A06_vulnerable_and_outdated_components": {
+    "precision": 0.7727272727272727,
+    "recall": 0.85,
+    "f1-score": 0.8095238095238095,
+    "support": 20.0
+  },
+  "A07_identification_and_authentication_failures": {
+    "precision": 0.7619047619047619,
+    "recall": 0.9142857142857143,
+    "f1-score": 0.8311688311688312,
+    "support": 35.0
+  },
+  "A08_software_and_data_integrity_failures": {
+    "precision": 0.8181818181818182,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.72,
+    "support": 14.0
+  },
+  "A09_security_logging_and_monitoring_failures": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10.0
+  },
+  "A10_server_side_request_forgery": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7.0
+  },
+  "accuracy": 0.8379629629629629,
+  "macro avg": {
+    "precision": 0.8604982152350573,
+    "recall": 0.832633865140259,
+    "f1-score": 0.8397649888204111,
+    "support": 216.0
+  },
+  "weighted avg": {
+    "precision": 0.8430879738628276,
+    "recall": 0.8379629629629629,
+    "f1-score": 0.8342099468182238,
+    "support": 216.0
+  }
+}

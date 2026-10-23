@@ -1,0 +1,43 @@
+{
+  "project": "GHOSTTRACE",
+  "generated_at": "2026-10-22T21:33:28+05:00",
+  "passed": 7,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Application syntax",
+      "status": "PASS",
+      "detail": "app.py compiles successfully"
+    },
+    {
+      "check": "Trained baseline model loads and predicts",
+      "status": "PASS",
+      "detail": "Prediction=A01_broken_access_control; confidence=0.1906628770724215"
+    },
+    {
+      "check": "Model experiment reports",
+      "status": "PASS",
+      "detail": "3 model comparison row(s) found"
+    },
+    {
+      "check": "Processed dataset",
+      "status": "PASS",
+      "detail": "1439 records; 10 labels"
+    },
+    {
+      "check": "Dataset split report",
+      "status": "PASS",
+      "detail": "Split counts: {'train': 1007, 'validation': 216, 'test': 216}"
+    },
+    {
+      "check": "CSV round-trip",
+      "status": "PASS",
+      "detail": "CSV export/import round-trip passed"
+    },
+    {
+      "check": "Requirements file",
+      "status": "PASS",
+      "detail": "Core application dependencies are listed"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "model": "Bidirectional LSTM",
+  "task": "OWASP category classification from attack/impact descriptions",
+  "dataset_records": 1439,
+  "train_records": 1007,
+  "validation_records": 216,
+  "test_records": 216,
+  "vocabulary_size": 3735,
+  "number_of_classes": 10,
+  "max_sequence_length": 256,
+  "embedding_dim": 128,
+  "hidden_dim": 64,
+  "best_epoch": 9,
+  "epochs_completed": 13,
+  "best_validation_macro_f1": 0.7088313076521926,
+  "test_loss": 0.9605748774828734,
+  "test_accuracy": 0.7129629629629629,
+  "macro_precision": 0.7536000210360825,
+  "macro_recall": 0.6903736857061665,
+  "macro_f1": 0.7117820307544124,
+  "training_seconds": 106.98,
+  "device": "cpu",
+  "random_state": 42,
+  "split_file": "reports/dataset_splits.csv",
+  "train_history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.2972212971854944,
+      "train_macro_f1": 0.10242141486696732,
+      "validation_loss": 2.2580997060846397,
+      "validation_macro_f1": 0.15986081910688754
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.172628356541517,
+      "train_macro_f1": 0.24471533399279094,
+      "validation_loss": 2.135465463002523,
+      "validation_macro_f1": 0.2558251175672493
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8789737341775676,
+      "train_macro_f1": 0.4009330614723769,
+      "validation_loss": 1.8590632103107594,
+      "validation_macro_f1": 0.31435708837887677
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.4766001906153463,
+      "train_macro_f1": 0.5015197962736441,
+      "validation_loss": 1.5616891251669989,
+      "validation_macro_f1": 0.5117245086386059
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.0740860145402167,
+      "train_macro_f1": 0.7038987086979748,
+      "validation_loss": 1.2540384663475885,
+      "validation_macro_f1": 0.60186152665841
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.7446586731765807,
+      "train_macro_f1": 0.8055937228779084,
+      "validation_loss": 1.1160644027921889,
+      "validation_macro_f1": 0.6516759264715705
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4847147667774969,
+      "train_macro_f1": 0.8948957656282206,
+      "validation_loss": 1.0703716278076172,
+      "validation_macro_f1": 0.6820386500127481
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.3036977739592176,
+      "train_macro_f1": 0.941478390267885,
+      "validation_loss": 1.0564214653438992,
+      "validation_macro_f1": 0.6959331644728722
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.18611254136872504,
+      "train_macro_f1": 0.967142065610157,
+      "validation_loss": 1.0093451407220628,
+      "validation_macro_f1": 0.7088313076521926
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.11538969828213576,
+      "train_macro_f1": 0.9777107051851331,
+      "validation_loss": 1.1361424260669284,
+      "validation_macro_f1": 0.6675498942671234
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.08167748459889493,
+      "train_macro_f1": 0.9856896589720247,
+      "validation_loss": 1.1166658070352342,
+      "validation_macro_f1": 0.6648407330724895
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.05515367664626125,
+      "train_macro_f1": 0.9922660782311175,
+      "validation_loss": 1.180317591737818,
+      "validation_macro_f1": 0.6662515556497073
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.044106607185722936,
+      "train_macro_f1": 0.9935594853471681,
+      "validation_loss": 1.1751698123084173,
+      "validation_macro_f1": 0.687408784607797
+    }
+  ],
+  "synthetic_records_present": true,
+  "warning": "Experimental results on synthetic/unverified dataset records. These metrics do not establish real-world vulnerability detection performance or prove exploitability."
+}

@@ -1,0 +1,68 @@
+{
+  "project": "GHOSTTRACE",
+  "verification": "passed",
+  "checks": [
+    {
+      "check": "Required file: app.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required file: requirements.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required file: README.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Best model exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reports directory exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ML scripts directory exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Python syntax",
+      "passed": true,
+      "detail": "9 files checked"
+    },
+    {
+      "check": "Model load and prediction",
+      "passed": true,
+      "detail": "Sample classification returned: A03_injection"
+    },
+    {
+      "check": "Data/report: data/processed/security_evidence.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Data/report: reports/dataset_splits.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Model comparison report exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Submission ZIP created",
+      "passed": true,
+      "detail": "/home/rehan/Desktop/GHOSTTRACE_SUBMISSION.zip"
+    }
+  ],
+  "failed_checks": [],
+  "note": "Model classification is experimental. Passing these checks does not prove real-world vulnerability detection or replace manual UI testing."
+}

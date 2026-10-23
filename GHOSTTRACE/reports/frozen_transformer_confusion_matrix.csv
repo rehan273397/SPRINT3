@@ -1,0 +1,11 @@
+,A01_broken_access_control,A02_cryptographic_failures,A03_injection,A04_insecure_design,A05_security_misconfiguration,A06_vulnerable_and_outdated_components,A07_identification_and_authentication_failures,A08_software_and_data_integrity_failures,A09_security_logging_and_monitoring_failures,A10_server_side_request_forgery
+A01_broken_access_control,27,0,1,4,2,0,0,1,1,0
+A02_cryptographic_failures,1,17,0,0,0,0,2,0,0,0
+A03_injection,3,0,28,0,1,1,0,1,0,0
+A04_insecure_design,1,1,0,11,1,0,1,1,1,0
+A05_security_misconfiguration,3,2,1,0,14,1,0,2,0,0
+A06_vulnerable_and_outdated_components,0,1,1,0,1,14,1,2,0,0
+A07_identification_and_authentication_failures,1,0,0,3,2,0,28,0,1,0
+A08_software_and_data_integrity_failures,0,0,1,1,0,2,0,9,0,1
+A09_security_logging_and_monitoring_failures,0,0,0,0,0,0,0,0,10,0
+A10_server_side_request_forgery,0,0,0,0,0,0,0,0,0,7
